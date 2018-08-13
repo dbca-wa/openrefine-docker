@@ -8,7 +8,8 @@ This image keeps its persistent workspace internally in `/var/openrefine`.
 Mount a local volume or folder to persist Openrefine's workspace:
 
 ```
-docker run dbcawa/openrefine -v /opt/openrefine:/path/on/your/host
+docker run dbcawa/openrefine -v /var/openrefine:/path/on/your/host
 ```
 
 ## Run using docker-compose
+TODO

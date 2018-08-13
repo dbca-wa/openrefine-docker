@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  openrefine:
+    image: dbcawa/openrefine:latest
+    ports:
+      - 3333:3333
+    volumes:
+      - openrefine-workspace:/opt/openrefine
+
+volumes:
+  openrefine-workspace:
+
